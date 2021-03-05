@@ -1,10 +1,15 @@
 import React from 'react'
-import Home from './components/Home'
+import Footer from './components/Footer'
+import Main from './components/Main'
+import Navbar from './components/Navbar'
 
 const App = () => {
+
   return (
     <>
-      <Home />
+      <Navbar />
+      <Main />
+      <Footer />
     </>
   )
 }
